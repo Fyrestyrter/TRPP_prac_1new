@@ -205,24 +205,24 @@ nav a{
     font-size:65px !important;
 }
 #brand-icon{
-  width: 80px;
-  height: 80px;
+  width: 80px !important;
+  height: 80px !important;
 }
 .brand-text{
-font-size:45px;
+font-size:45px !important;
 }
 .brand-minitext{
-font-size:30px;
+font-size:30px !important;
 }
 ul.ssubmenuu{
-  top:140px;
-  width:275px;
+  top:140px !important;
+  width:275px !important;
 }
 ul.ssubmenuu > li > a{
-  font-size:35px;
+  font-size:35px !important;
 }
 .li2{
-  margin-top:-30px;
+  margin-top:-30px !important;
 }
 footer{
   width: 400%;
