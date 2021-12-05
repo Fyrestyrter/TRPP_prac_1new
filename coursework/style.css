@@ -238,15 +238,20 @@ ul.mmenuu > li{
   font-size: 45px !important;
   margin-left:100px !important;
 }
-#main1,#ps1,#ps2,#ps3,#ps4,#ps5,#psp,#ps-vita,#psp-go,#xbox,#xbox-360,#xbox-one,#xbox-series-sax,#gameboy-adv, #ds, #n2ds, #n3ds,#wii,#wii-u,#switch{
-  display: flex;
+#ps1,#ps2,#ps3,#ps4,#ps5,#psp,#ps-vita,#psp-go,#xbox,#xbox-360,#xbox-one,#xbox-series-sax,#gameboy-adv, #ds, #n2ds, #n3ds,#wii,#wii-u,#switch{
+  display: flex !important;
   align-items: center !important;
+  flex-direction: column;
+  margin-left: 210% !important;
+}
+.harki1, .harki2, .harki3{
+  width:500px;
 }
 #main{
-  display: flex;
+  display: flex !important;
   align-items: center !important;
-  gap:65px;
-  justify-content: flex-start;
+  gap:65px !important;
+  justify-content: flex-start !important;
 }
 #mainminitext{
   margin-bottom: 0 !important;
@@ -256,6 +261,8 @@ ul.mmenuu > li{
 }
 #main1{
   margin-left:210%;
+  display: flex !important;
+  align-items: center !important;
 }
 .img17{
   width: 703px !important;;
