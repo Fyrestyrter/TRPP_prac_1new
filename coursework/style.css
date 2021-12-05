@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@font-face {
+  font-family: sony_normal;
+  src: url(fonts/sony_normal.otf); 
+ }
+ .fab, .fas {
+   margin-right:5px;
+ }
+body{
+  background-color:#252b36;
+  margin:0;
+  padding: 0;
+}
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+header{
+  display:flex;
+  height: 70px;
+  align-items: center;
+  z-index: 9999;
+  font-family: 'Ubuntu';
+  background-color: #101217;
+  width:100%;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin-left:-65px;
+  padding:0px;
+  align-items: center;
+}
+ul:after {
+  display: block;
+  float: none;
+  content: ' ';
+  clear: both;
+}
+ul.mmenuu > li {
+  float: left;
+  position: relative;
+  margin-left:200px;
+  font-size: 25px;
+}
+ul.mmenuu > .li3 {
+  float: left;
+  position: relative;
+  margin-left:160px;
+  font-size: 25px;
+  }
+  ul.mmenuu > .li4 {
+  float: left;
+  position: relative;
+  margin-left:125px;
+  font-size: 25px;
+  }
+ul.mmenuu > li > a {
+  display: block;
+  color: #f0eff0;
+  padding: 10px;
+  text-decoration: none;
+  background-color: inherit;
+  transition: .6s;
+  cursor:default;
+}
+ul.mmenuu > li > a:hover {
+  background-color: #19a787;
+  border-radius: 10px;
+  transform:scale(1.2);
+}
+ul.ssubmenuu {
+  position: absolute;
+  width: 240px;
+  top: 37px;
+  left:0px;
+  display: none;
+}
+ul.ssubmenuu > li {
+  display: block;
+}
+ul.ssubmenuu > li > a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #f0eff0;
+  background-color: #19a787;
+  border-radius:10px;
+  transition: .6s;
+  font-size:15px;
+}
+.li1{
+  margin-top:20px;
+}
+.li2{
+    margin-top:20px;
+}
+ul.ssubmenuu > li > a:hover {
+  background-color: #19a787;
+  transform:scale(1.2);
+}
+ul.mmenuu > li:hover > ul.ssubmenuu {
+  display: block;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: #f0eff0;
+  padding: 5px 10px;
+  font-family: inherit; 
+  margin-left: 150px; 
+  transition: .6s;
+  text-decoration: none;
+}
+nav a:hover {
+  transform: scale(1.3);
+  border-radius: 10px;
+  background-color: #19a787;
+}
+.name{
+  font-size: 20px;
+  color: #f0eff0;
+  font-family: 'sony_normal';
+}
+.name1{
+  font-size: 20px;
+  color: #f0eff0;
+  font-family: 'Segoe UI','SegoeUI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#iconMicro{
+  width: 20px;
+  height: 20px;
+  margin-left: 0;
+  margin-right: 5px;
+}
+#iconNin{
+  width: 100px;
+  height: 60px;
+  margin-left: 0;
+  margin-right: 5px;
+}
+#brand-icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 5px;
+  }
+.brand-text{
+  font-size:25px;
+  color:#f0eff0;
+  margin:0;
+  padding:0;
+  margin-right: 110px;
+  }
+.brand-minitext{
+  font-size: 10px;
+  color:#19a787;
+  margin:0 0 0 2px;
+  padding:0;
+  }
+#homebutton{
+  width: 40px;
+  height: 40px;
+  transition: .6s;
+}
+#homebutton:hover{
+  transform: scale(1.2);
+}
+#homebutton-ref1{
+  margin-left:110px;
+}
+footer{
+  display:flex;
+  background-color: #101217;
+  height: 70px;
+  bottom: auto;
+  color:#f0eff0;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Ubuntu' , 'Bold';
+  margin-top:20px;
+}
+@media (max-width:425px) {
+  header{
+    width:400%;
+  }
+  nav a{
+    margin-left:10px;
+  }
+footer{
+  width: 400%;
+}
+#main,#main1,#ps1,#ps2,#ps3,#ps4,#ps5,#psp,#ps-vita,#psp-go,#xbox,#xbox-360,#xbox-one,#xbox-series-sax,#gameboy-adv, #ds, #n2ds, #n3ds,#wii,#wii-u,#switch{
+  display: flex;
+  align-items: center !important;
+}
+#main1{
+  margin-left:210%;
+}
+.img17{
+  width: 703px !important;;
+  height: 343px !important;
+}
+.img16{
+  width: 703px !important;;
+  height: 347px !important;
+}
+.img14{
+  width: 703px !important;;
+  height: 429px !important;
+}
+.img9{
+  width: 703px !important;;
+  height: 703px !important;
+}
+.img13{
+  width: 703px !important;;
+  height: 552px !important;
+}
+.img15{
+  width: 703px !important;;
+  height: 635px !important;
+}
+.img8{
+  width: 703px !important;;
+  height: 267px !important;
+}
+.img10{
+  width: 703px !important;;
+  height: 351px !important;
+}
+.img12{
+  width: 703px !important;;
+  height: 486px !important;
+}
+.img6{
+  width: 703px !important;;
+  height: 554px !important;
+}
+.img5{
+  width: 703px !important;;
+  height: 355px !important;
+}
+.img7{
+  width: 703px !important;;
+  height: 262px !important;
+}
+#xbox-series-sax .imgcontainer{
+  flex-direction: column;
+}
+}
+#scroll_top {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 1000;
+	width: 64px;
+	height: 64px;
+	background: url(./images/up-arrow.png) 50% 50% no-repeat;
+	border-radius: 50%;
+	opacity: 0.5;
+}
+#scroll_top:hover {
+ 	opacity: 1;
+}
+#main{
+  height: 770px;
+  margin-left:8%;
+  margin-right:8%;
+}
+#maintext{
+    color:#a6afbd;
+    font-size: 100px;
+    font-family: 'Oswald';
+    font-weight: Bold;
+    text-align: start;
+    margin-bottom:0;
+  }
+  #mainminitext{
+    font-size: 30px;
+    font-family: 'Oswald';
+    font-weight: Bold;
+    text-align: start;
+    color:#a6afbd;
+    margin-bottom:300px;
+  }
+  #mainminitext1{
+    font-size:15px;
+    font-family: 'Oswald';
+    font-weight: 'Bold';
+    text-align: start;
+    color:#a6afbd;
+    opacity:.7;
+  }
+#VK{
+  text-decoration: none;
+  font-size: 25px;
+  color:#f0eff0;
+  transition: .6s;
+}
+#VK:hover{
+  transform: scale(1.2);
+}
+.imgcontainer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap:150px;
+}
+#main1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headtext{
+  color:#19a787;
+  font-size: 65px;
+  font-family: 'Oswald';
+  font-weight: Bold;
+  margin-top:150px;
+  margin-right:10%;
+  margin-left:10%;
+  text-align: center;
+}
+.head{
+  font-family: 'Ubuntu';
+  font-size:50px;
+  text-align:center;
+  color: #19a787;
+  font-weight: Bold;
+  padding-top:80px;
+}
+.img{
+  width: 700px;
+  height: 393px;
+}
+.img1{
+  width:803px;
+  height:300px;
+}
+.img2{
+  width:803px;
+  height: 364px;
+}
+.img3{
+  width:803px;
+  height: 401px;
+}
+.img4{
+  width:803px;
+  height: 452px;
+}
+.img5{
+  width: 803px;
+  height: 455px;
+}
+.img6{
+  width:570px;
+  height: 450px;
+}
+.img7{
+  width:803px;
+  height: 362px;
+}
+.img8{
+width:803px;
+height: 367px;
+}
+.img9{
+  width:500px;
+  height: 500px;
+}
+.img10{
+  width:803px;
+  height: 451px;
+}
+.img11{
+  width:500px;
+  height: 403px;
+}
+.img12{
+  width:722px;
+  height: 500px;
+}
+.img13{
+  width:500px;
+  height: 393px;
+}
+.img14{
+  width:803px;
+  height: 529px;
+}
+.img15{
+  width:552px;
+  height: 500px;
+}
+.img16{
+  width:803px;
+  height: 447px;
+}
+.img17{
+  width:803px;
+  height: 443px;
+}
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 1fr; 
+  gap: 20px 20px; 
+  grid-template-areas: 
+    "text1 text1 text1"
+    "text2 text2 text2"
+    "head head head"
+    "harki1 harki2 harki3"; 
+  align-items: stretch; 
+}
+
+.text1 { 
+  grid-area: text1;
+  background-color:#19a787;
+  font-size:20px;
+  font-family: 'Ubuntu';
+  color:#E5E4E2;
+  padding:10px ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 { grid-area: text2;background-color:#a6afbd;
+  font-size:20px;
+  font-family: 'Ubuntu';
+  color:#f0eff0; 
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head1 { grid-area: head;
+  font-size:50px;
+  font-family: 'Oswald';
+  color:#f0eff0; 
+  text-align: center;
+}
+
+.harki1 { grid-area: harki1;background-color:#19a787;
+  font-size:20px;
+  font-family: 'Ubuntu';
+  color:#f0eff0;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.harki2 { grid-area: harki2;background-color:#a6afbd;
+  font-size:20px;
+  font-family: 'Ubuntu';
+  color:#f0eff0; 
+  padding:10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.harki3 { grid-area: harki3;background-color:#19a787;
+  font-size:20px;
+  font-family: 'Ubuntu';
+  color:#E5E4E2;
+  padding:10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+#ps1,#ps2,#ps3,#ps4,#ps5,#psp,#ps-vita,#psp-go,#xbox,#xbox-360,#xbox-one,#xbox-series-sax,#gameboy-adv, #ds, #n2ds, #n3ds,#wii,#wii-u,#switch{
+  margin-top: 220px;
+  margin-left:10%;
+  margin-right:10%
+}
+
+
