@@ -187,7 +187,7 @@ footer{
   display:flex;
   background-color: #101217;
   height: 70px;
-  bottom: auto;
+  bottom: 1%;
   color:#f0eff0;
   justify-content: center;
   align-items: center;
@@ -238,9 +238,21 @@ ul.mmenuu > li{
   font-size: 45px !important;
   margin-left:100px !important;
 }
-#main,#main1,#ps1,#ps2,#ps3,#ps4,#ps5,#psp,#ps-vita,#psp-go,#xbox,#xbox-360,#xbox-one,#xbox-series-sax,#gameboy-adv, #ds, #n2ds, #n3ds,#wii,#wii-u,#switch{
+#main1,#ps1,#ps2,#ps3,#ps4,#ps5,#psp,#ps-vita,#psp-go,#xbox,#xbox-360,#xbox-one,#xbox-series-sax,#gameboy-adv, #ds, #n2ds, #n3ds,#wii,#wii-u,#switch{
   display: flex;
   align-items: center !important;
+}
+#main{
+  display: flex;
+  align-items: center !important;
+  gap:65px;
+  justify-content: flex-start;
+}
+#mainminitext{
+  margin-bottom: 0 !important;
+}
+#mainminitext1{
+  font-size: 30px !important;
 }
 #main1{
   margin-left:210%;
