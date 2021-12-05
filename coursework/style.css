@@ -195,7 +195,7 @@ footer{
   font-family: 'Ubuntu' , 'Bold';
   margin-top:20px;
 }
-@media (max-width:425px) {
+@media only screen and (max-width:425px) {
 header{
     width:400%;
     height: 200px;
